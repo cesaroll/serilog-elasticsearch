@@ -8,7 +8,26 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.0" />
+        <PackageReference Include="Serilog.AspNetCore" Version="6.1.0" />
+        <PackageReference Include="Serilog.Enrichers.Environment" Version="2.2.0" />
+        <PackageReference Include="Serilog.Sinks.Elasticsearch" Version="8.4.1" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="elasticsearch-data\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="elasticsearch-data\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="elasticsearch-data\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="elasticsearch-data\**" />
     </ItemGroup>
 
 </Project>
