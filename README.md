@@ -1,1 +1,0 @@
-# serilog-elasticsearch
