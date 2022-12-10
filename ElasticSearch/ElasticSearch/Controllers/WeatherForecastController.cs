@@ -38,7 +38,7 @@ public class WeatherForecastController : ControllerBase
         }
         catch (Exception e)
         {
-            _logger.LogError("Something bad happened!", e);
+            _logger.LogError(e,"Something bad happened!");
             return new StatusCodeResult(500);
         }
     }
