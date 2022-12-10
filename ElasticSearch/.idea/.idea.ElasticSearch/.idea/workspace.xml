@@ -7,14 +7,15 @@
   <component name="ChangeListManager">
     <list default="true" id="c1f5bbe4-aaa1-4f02-aed0-37e43733e9a5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ElasticSearch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ElasticSearch/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElasticSearch/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ElasticSearch/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElasticSearch/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ElasticSearch/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ElasticSearch/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ElasticSearch/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ElasticSearch/Controllers/WeatherForecastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ElasticSearch/Controllers/WeatherForecastController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1dad7066d59e42d92476c5ad1180c2b63352d32689dd3d3be2bb2aa26b3bea5/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -80,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670706766218</updated>
-      <workItem from="1670706767820" duration="2545000" />
+      <workItem from="1670706767820" duration="3456000" />
     </task>
     <servers />
   </component>
